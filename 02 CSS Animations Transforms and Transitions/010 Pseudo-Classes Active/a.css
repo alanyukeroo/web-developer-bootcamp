@@ -1,0 +1,28 @@
+h1:hover{
+	background-color: blue;
+}
+
+button:hover{
+	color:white;
+}
+
+input:focus{
+	background-color: teal;
+}
+
+button:focus{
+	border-radius: 10px;
+	background-color: #2ecc72;
+}
+
+button:active{
+	background-color: orange;
+	font-size:30px;
+}
+
+
+/*Nothing happen, cause active only work on BUTTON*/
+h1:active{
+	background-color: orange;
+	font-size: 30px
+}
